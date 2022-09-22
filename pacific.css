@@ -1,0 +1,111 @@
+/*This is the CSS file for Pacific Heights Trails */
+body {
+	background-color: #FFFFFF;
+	font-family:Verdana, Arial, sans-serif;
+	color: #666666;
+	background-image: url(images/background.jpg);
+}
+
+header {
+	background-color: #000033;
+	color: #FFFFFF;
+	font-family: Georgia, serif;
+}
+
+h1{
+	line-height: 200%;
+	background-image: url(images/sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 20px;
+	height: 72px;
+	margin-bottom: 0;
+}
+
+nav{
+	font-weight: bold;
+	background-color: #90C7E3;
+	padding: 5px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+h2{
+	font-family: Georgia, serif;
+	color: #3399CC
+}
+
+dt{
+	font-weight: bold;
+	color: #000033;
+}
+
+main{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h3{
+	color: #000033;
+}
+
+.resort{
+	font-size: 1.2em;
+	color: #000033;
+}
+
+footer{
+	font-size: .70em;
+	font-style: italic;
+	text-align: center;
+	padding: 5px;
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 80%;
+	background-color: whitesmoke;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: -27px 21px 17px 0px rgba(17,22,145,0.75);
+}
+
+#homehero{
+	background-image: url(images/coast.jpg);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#yurthero{
+	background-image: url(images/yurt.jpg);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#trailhero{
+	background-image: url(images/trail.jpg);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+
+#mySubmit{
+	display: block;
+	margin-left: 10em;
+	background-color: lightgray;
+}
