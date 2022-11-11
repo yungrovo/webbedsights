@@ -1,0 +1,283 @@
+/*look at all deez lynx*/
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+body {
+  font-family: 'Assistant', sans-serif;
+  font-size: 100%;
+  background: #DAAAE3;
+  margin: 0;
+  padding: 0;
+  border-top: purple solid 15px;
+}
+
+/* had to make this div to align the h1 header and the logo next to it */
+#headlogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  background-color: #DAAAE3;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.capybucket{
+  display: inline;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Chela One';
+  color: #E7E1E8;
+  text-shadow: 4px 5px #B26BBC;
+}
+
+
+/*I couldn't center the nav text with nav ul, so I did it in nav*/
+nav{
+  background-color: #E5D5FF;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  border: #cfaae3 double 3px;
+  border-radius: 10px;
+}
+
+nav ul{
+  list-style-type:none;
+}
+
+nav li{
+  display:inline;
+}
+
+nav a{
+  text-decoration:none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.3em;
+}
+
+nav a:link{
+  color:#6116DE;
+}
+nav a:visited{
+  color:#6116DE;
+}
+nav a:hover{
+  color:tomato;
+}
+nav a:active{
+  color:violet;
+}
+
+
+a:link{
+  color: indigo;
+}
+
+a:visited{
+  color: darkolivegreen;
+}
+
+a:hover{
+  color: crimson;
+}
+
+a:active{
+  color: darkorange;
+}
+
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  font-size: 1.15em;
+}
+
+li{
+  font-size: 1.15em;
+}
+
+
+/*the main image on the index page and the bio to the right of it*/
+.capy{
+  float: left;
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin-left: 75px;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.bio{
+  float: right;
+  max-width: 400px;
+  width: 50%;
+  margin: auto;
+  margin-right: 50px;
+  padding-bottom: 50px;
+}
+
+table{
+  border-collapse: collapse;
+  background-color: white;
+  margin: auto;
+}
+
+th{
+  background-color: darkorange;
+  color: ghostwhite;
+}
+
+td,th{
+  border: 3px solid indigo;
+  padding: 5px;
+  text-align: left;
+}
+
+label{
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+input, textarea{
+  margin-bottom: 1em;
+  display: block;
+  margin-top: 20px;
+}
+
+input[type=submit]{
+  display: block;
+  background-color: lightgray;
+  margin-left: 20px;
+}
+
+#formdiv{
+  margin: 0 auto;
+  height: auto;
+  width: 50%;
+  border: 1px solid gray;
+  background-color: ghostwhite;
+  box-shadow: 10px 10px 5px 0px rgba(147,92,166,0.75);
+}
+
+footer{
+  text-align: center;
+  border-top: 1.5px outset palevioletred;
+  padding: 10px;
+  clear: both;
+  background-color: #DAAAE3;
+  color: white;
+}
+
+.resume h2, h4{
+  text-align: center;
+}
+
+.vidcon-holder{
+  width: 80%;
+  height: 80%;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*a change to the game*/
+.myButton{
+  font-family: 'Chela One';
+  font-size: 1.5em;
+  background-color: lightskyblue;
+  color: #223778;
+  text-shadow: 2px 1px lightcyan;
+  height: 60px;
+  width: 120px;
+  border-width: 1px 3px 3px 1px;
+  border-style: solid;
+  border-color: lightcyan;
+  border-radius: 20px;
+  margin-top:10px;
+}
+
+
+canvas{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display:block;
+  background-image: url(images/silverbg.jpg);
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+  font-size: 4em;
+ }
+.mobile{
+  display: none;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1{
+        font-size: 2.75em;
+    }
+    .desktop{
+      display: none;
+    }
+    .mobile{
+      display: block;
+    }
+   
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 1.5em;
+    }
+    .desktop{
+      display: none;
+    }
+    .mobile{
+      display: block;
+    }
+}
